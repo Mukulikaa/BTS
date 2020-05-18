@@ -1,0 +1,59 @@
+body  {
+    background-image: url("BTSbg.png"),url("BTS-background.jpg");
+    background-size: cover;
+  }
+h1{
+    font-family: sans-serif;
+    color: rgb(101, 12, 245);
+    font-size: 500px;
+    padding: 20px;
+}
+.menu{
+    color: purple;
+    font-size: 20px;
+    text-align: center;
+    padding: 50px;
+}
+.wrapper{
+    display: grid;
+    grid-template-rows: 150px 375px;
+    grid-template-columns: 375px 600px;
+}
+#list{
+    text-align: left;
+}
+.wrapper1{
+    display: grid;
+    grid-template-rows: 150px 400px;
+    grid-template-columns: 250px 850px;
+}
+table th,td{
+    border: 1px solid black;
+}
+.wiki{
+    color: rgb(224, 6, 6);
+}
+.wrapper2{
+    display: grid;
+    grid-template-rows: 150px 400px;
+    grid-template-columns: 375px 600px;
+    
+}
+.hi{
+    position: bottom;
+    text-align: center;
+    grid-row: 2;
+    grid-column: 2;
+    background-image: url("BTS-background.jpg");
+    background-size: cover;
+    border: 1px solid black;
+    padding-top: 10px;
+}
+.wrapper3{
+    display: grid;
+    grid-template-rows: 150px 150px;
+    grid-template-columns: 500px 350px;
+}
+
+
+
