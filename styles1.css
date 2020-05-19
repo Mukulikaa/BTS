@@ -1,6 +1,7 @@
 body  {
     background-image: url("BTSbg.png"),url("BTS-background.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
   }
 h1{
     font-family: sans-serif;
